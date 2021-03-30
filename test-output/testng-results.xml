@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39073" started-at="2021-03-24T05:58:06Z" finished-at="2021-03-24T05:58:45Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="39073" started-at="2021-03-24T05:58:06Z" finished-at="2021-03-24T05:58:45Z">
+      <class name="com.w2a.zoho.rough.LoginTest">
+        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:com.w2a.zoho.rough.LoginTest@47db50c5]" name="setUpFramework" is-config="true" duration-ms="115" started-at="2021-03-24T11:28:06Z" finished-at="2021-03-24T11:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFramework -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.zoho.rough.LoginTest@47db50c5]" name="loginTest" duration-ms="36885" started-at="2021-03-24T11:28:07Z" data-provider="masterDP" finished-at="2021-03-24T11:28:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, password=Duster@159, Runmode=Y, username=abdsalam4789@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.zoho.rough.LoginTest@47db50c5]" name="loginTest" duration-ms="27098" started-at="2021-03-24T11:28:07Z" data-provider="masterDP" finished-at="2021-03-24T11:28:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, password=Duster@159, Runmode=Y, username=abdsalam4789@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.zoho.rough.LoginTest@47db50c5]" name="tearDown" is-config="true" duration-ms="4640" started-at="2021-03-24T11:28:34Z" finished-at="2021-03-24T11:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.zoho.rough.LoginTest@47db50c5]" name="tearDown" is-config="true" duration-ms="749" started-at="2021-03-24T11:28:44Z" finished-at="2021-03-24T11:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.zoho.rough.LoginTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

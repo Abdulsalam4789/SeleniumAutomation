@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.w2a.zoho.ExtentListners.ExtentListeners"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.w2a.zoho.rough.LoginTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="1 0"/>
+          <include name="tearDown"/>
+          <include name="setUpFramework"/>
+        </methods>
+      </class> <!-- com.w2a.zoho.rough.LoginTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
